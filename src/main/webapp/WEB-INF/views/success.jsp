@@ -12,7 +12,9 @@
 </head>
 <body>
 
-Welcome Username - ${username}
-Pass ${password}
+<h1> ${title}</h1>
+<h1> ${desc}</h1>
+Welcome ${user.username}
+Pass ${user.password}
 </body>
 </html>
