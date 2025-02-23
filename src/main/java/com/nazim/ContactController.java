@@ -29,7 +29,7 @@ public class ContactController {
     public String processform(@ModelAttribute User user, Model model ) {
         // here ModelAttribute connects the parametrs according to there name mapping
         System.out.println(user);
-        return "success";
+        return "success" ;
 
     }
     // Using ModelAttribute Method 1
